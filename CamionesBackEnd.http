@@ -1,0 +1,6 @@
+@CamionesBackEnd_HostAddress = http://localhost:5110
+
+GET {{CamionesBackEnd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
