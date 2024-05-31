@@ -12,6 +12,7 @@ public partial class Gasto
     public double Cantidad { get; set; }
 
     public int? Categoria { get; set; }
+    public int Viaje {  get; set; }
 
     public DateOnly Fecha { get; set; }
 
@@ -19,5 +20,4 @@ public partial class Gasto
 
     public virtual Categoria? CategoriaNavigation { get; set; }
 
-    public virtual ICollection<Viaje> Viajes { get; set; } = new List<Viaje>();
 }

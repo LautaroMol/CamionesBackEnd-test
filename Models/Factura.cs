@@ -7,11 +7,11 @@ public partial class Factura
 {
     public int Idfactura { get; set; }
 
-    public int? Usuario { get; set; }
+    public List<int> Usuarios { get; set; }
 
-    public int? Cliente { get; set; }
+    public List<int> Clientes { get; set; }
 
-    public int? Cargas { get; set; }
+    public List<int> Cargas { get; set; }
 
     public string Cuit { get; set; } = null!;
 
